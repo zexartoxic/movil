@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta name="description" content="Soluciones integrales en software">
+	<meta name="keywords" content="acurstinsoft, acurstin, soft, software">
+	<meta name="author" content="Acurstin Soft">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2" />
+	<title>Acurstin Soft</title>
+	<link rel="shortcut icon" href="img/favicon.ico" />
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="js/jqueryMobile/jquery.mobile.structure-1.4.3.min.css"/>
+	<link rel="stylesheet" href="js/jqueryMobile/jquery.mobile.theme-1.4.3.min.css" />
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/jqueryMobile/jquery.mobile-1.4.3.min.js"></script>
+</head>
+<body>
+    <div data-role="page" id="inicio" data-theme ="a">
+    	<header data-role="header">
+    		<h1>Acurstin</h1>
+    	</header>
+        <section data-role="content">
+            <a href="#pantalla2" data-role="button"> Ir a Pantalla 2 </a>
+        </section>
+        <footer data-role="footer">
+            <p>Acurstin Soft - 2014</p>
+        </footer>
+    	
+    </div>
+    <div data-role="page" id="pantalla2">
+            <div data-role="header">
+                <h1> Pantalla 2 </h1>
+            </div>
+            <a href="#" data-rel="back" data-role="button" > Regresar </a>
+        <ul data-role="listview" >
+            <li><a href="#pantalla3"> Pantalla 1</a></li>
+            <li><a href="#pantalla3"> Pantalla 2 </a></li>
+            <li><a href="#pantalla3"> Pantalla 3 </a></li>
+            <li><a href="#pantalla3"> Pantalla 4 </a></li>
+            <li><a href="#pantalla3"> Pantalla 5 </a></li>
+            <li><a href="#pantalla3"> Pantalla 6 </a></li>
+        </ul>
+        <div data-role="footer">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#pantalla2">Pantalla 2</a></li>
+                    <li><a href="#pantalla3">Otros</a></li>
+                </ul>
+            </div><!-- /navbar -->
+        </div>
+    </div>
+    <div data-role="page" id="pantalla3">
+        <h1> Pantalla 3 </h1>
+         <a href="#" data-rel="back" data-role="button" > Regresar </a>
+    </div>
+</body> 
+</html> 
+
